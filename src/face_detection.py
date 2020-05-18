@@ -31,6 +31,3 @@ def catch_video(window_name):
     cap.release()
     cv2.destroyAllWindows()
 
-
-if __name__ == '__main__':
-    catch_video("Face Recognization v1.0")
