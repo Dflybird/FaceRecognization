@@ -72,4 +72,4 @@ def get_train_data(window_name, data_size, data_save_path):
 
 if __name__ == '__main__':
     # catch_video("Face Recognization v1.0")
-    get_train_data("Get Face data", 100, os.getcwd() + '/myData/')
+    get_train_data("Get Face data", 100, os.path.abspath(os.path.join(os.getcwd(), "..")) + '/myData/')
